@@ -258,7 +258,7 @@ export default function ContactPage() {
           <div className="rounded-[35px] overflow-hidden border border-white/10 shadow-2xl">
 
             <iframe
-              src="https://maps.google.com/maps?q=https://maps.app.goo.gl/3737AtxAHjAoDcKB8&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.4935135287787!2d85.85747146954408!3d20.30134105662001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a19e8474195%3A0xfffbade260076129!2sS3-97%2C%20Sector%20A%2C%20Mancheswar%20Industrial%20Estate%2C%20Bhubaneswar%2C%20Odisha%20751010!5e0!3m2!1sen!2sin!4v1779696651557!5m2!1sen!2sin"
               width="100%"
               height="500"
               loading="lazy"
