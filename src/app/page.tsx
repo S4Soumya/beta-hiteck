@@ -40,18 +40,6 @@ export default function HomePage() {
 
     <main className="bg-white overflow-hidden">
 
-      {/* FLOATING TRUCK */}
-
-      <div className="fixed bottom-24 left-0 z-40 truck-animation hidden md:block">
-
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1995/1995502.png"
-          alt="Truck"
-          className="w-28 drop-shadow-2xl"
-        />
-
-      </div>
-
       {/* HERO SECTION */}
 
       <section className="relative min-h-screen flex items-center">
@@ -245,6 +233,181 @@ export default function HomePage() {
             ))}
 
           </div>
+
+        </div>
+
+      </section>
+
+      {/* WHY CHOOSE US */}
+
+      <section className="py-24 bg-white">
+
+        <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-16 items-center">
+
+          <div>
+
+            <img
+              src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1600&auto=format&fit=crop"
+              className="rounded-[35px] shadow-2xl w-full"
+              alt="Truck"
+            />
+
+          </div>
+
+          <div>
+
+            <div className="text-orange-500 font-bold uppercase tracking-[3px] mb-5">
+              WHY CHOOSE US
+            </div>
+
+            <h2 className="text-4xl md:text-6xl font-black text-slate-900 leading-tight mb-8">
+
+              Trusted By Customers
+              <span className="block text-orange-500">
+                Across India
+              </span>
+
+            </h2>
+
+            <div className="space-y-8">
+
+              <div>
+
+                <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                  Safe & Secure Delivery
+                </h3>
+
+                <p className="text-slate-600 leading-8 text-lg">
+                  Every shipment is handled carefully to ensure complete safety during transportation.
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                  Experienced Team
+                </h3>
+
+                <p className="text-slate-600 leading-8 text-lg">
+                  Our professional staff ensures smooth operations and customer satisfaction.
+                </p>
+
+              </div>
+
+              <div>
+
+                <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                  Timely Service
+                </h3>
+
+                <p className="text-slate-600 leading-8 text-lg">
+                  We value your time and always focus on on-time pickup and delivery.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* TESTIMONIAL */}
+
+      <section className="bg-slate-950 py-24">
+
+        <div className="max-w-7xl mx-auto px-5 text-center">
+
+          <div className="text-orange-400 font-bold uppercase tracking-[3px] mb-5">
+            CUSTOMER TRUST
+          </div>
+
+          <h2 className="text-4xl md:text-6xl font-black text-white mb-16">
+            What Our Clients Say
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8">
+
+              <p className="text-slate-300 text-lg leading-9 mb-6">
+                “Excellent transport service with timely delivery and professional support.”
+              </p>
+
+              <h3 className="text-orange-400 font-bold text-xl">
+                Rahul Sharma
+              </h3>
+
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8">
+
+              <p className="text-slate-300 text-lg leading-9 mb-6">
+                “Very safe relocation experience and supportive team throughout the process.”
+              </p>
+
+              <h3 className="text-orange-400 font-bold text-xl">
+                Priya Sahu
+              </h3>
+
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-[30px] p-8">
+
+              <p className="text-slate-300 text-lg leading-9 mb-6">
+                “Reliable warehouse and transport solutions with affordable pricing.”
+              </p>
+
+              <h3 className="text-orange-400 font-bold text-xl">
+                Anil Verma
+              </h3>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* CTA */}
+
+      <section className="relative py-24 overflow-hidden">
+
+        <img
+          src="https://images.unsplash.com/photo-1565891741441-64926e441838?q=80&w=1800&auto=format&fit=crop"
+          className="absolute inset-0 w-full h-full object-cover"
+          alt="Truck"
+        />
+
+        <div className="absolute inset-0 bg-black/75" />
+
+        <div className="relative z-10 max-w-5xl mx-auto px-5 text-center">
+
+          <h2 className="text-4xl md:text-6xl font-black text-white leading-tight mb-8">
+
+            Ready To Move
+            <span className="block text-orange-400">
+              Your Goods Safely?
+            </span>
+
+          </h2>
+
+          <p className="text-slate-300 text-xl leading-9 mb-10">
+
+            Contact Hiteck Transport today and get professional transport and logistics services.
+
+          </p>
+
+          <Link
+            href="/contact"
+            className="inline-block bg-orange-500 hover:bg-orange-400 transition text-white px-10 py-5 rounded-2xl font-bold text-xl"
+          >
+            Get A Free Quote
+          </Link>
 
         </div>
 
