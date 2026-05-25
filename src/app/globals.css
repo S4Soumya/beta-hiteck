@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #020617;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes truckMove {
+
+  0% {
+    transform: translateX(-120px);
+  }
+
+  100% {
+    transform: translateX(120vw);
+  }
+}
+
+.truck-animation {
+  animation: truckMove 18s linear infinite;
+}
