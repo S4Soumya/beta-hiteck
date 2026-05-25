@@ -258,7 +258,7 @@ export default function ContactPage() {
           <div className="rounded-[35px] overflow-hidden border border-white/10 shadow-2xl">
 
             <iframe
-              src="https://www.google.com/maps?q=Mancheswar+Industrial+Estate+Rasulgarh&output=embed"
+              src="https://maps.google.com/maps?q=https://maps.app.goo.gl/3737AtxAHjAoDcKB8&t=&z=13&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="500"
               loading="lazy"
